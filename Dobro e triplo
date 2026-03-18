@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real numero,dobro,triplo
+		escreva ("digite um numero ")
+		leia (numero)
+		dobro=numero*2
+		triplo=numero*3
+		escreva ("o dobro do numero é ", dobro)
+		escreva ("\no triplo do numero é ", triplo)
+	}
+}
