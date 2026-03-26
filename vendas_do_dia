@@ -1,4 +1,4 @@
-rograma {
+programa {
   funcao inicio() {
     real valor,vendas=0
     escreva ("digite o valor da venda (0 para parar) ")
