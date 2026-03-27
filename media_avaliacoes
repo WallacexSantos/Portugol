@@ -7,7 +7,7 @@ programa
     escreva ("digite uma nota de 1 a 5 ")
     leia (nota)
     avaliacoes ++
-    enquanto (avaliacoes!=21){
+    enquanto (avaliacoes!=20){
     	escreva ("digite uma nota de 1 a 5 ")
     leia (nota)
     avaliacoes ++
