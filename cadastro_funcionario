@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+     inteiro codigo_funcionario, idade, identidade
+     caracter tipo_sanguineo
+     escreva ("digite o codigo do funcionario ")
+     leia (codigo_funcionario)
+     escreva("digite a idade do funcionario ")
+     leia (idade)
+     escreva("digite o tipo sanguineo do funcionario ")
+     leia (tipo_sanguineo)
+     escreva ("digite a identidade ")
+     leia (identidade)
+     escreva ("carteira de identificacao do funcionario \ncodigo: ", codigo_funcionario)
+     escreva ("\nidade: ", idade) 
+     escreva ("\n1tipo s: ", tipo_sanguineo)
+     escreva ("\nid: ", identidade)
+	}
+}
