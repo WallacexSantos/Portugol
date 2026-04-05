@@ -2,14 +2,14 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro numero, i
+		inteiro numero, contador
 		
 		escreva("Digite um numero: ")
 		leia(numero)
 		
-		para (i = 1; i <= 10; i++)
+		para (contador = 1; contador <= 10; contador++)
 		{
-			escreva("\n", numero, "*", i, " = ", numero * i)
+			escreva("\n", numero, "*", contador, " = ", numero * contador)
 		}
 	}
 }
