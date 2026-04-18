@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
      inteiro codigo_funcionario, idade, identidade
-     caracter tipo_sanguineo
+     cadeia tipo_sanguineo
      escreva ("digite o codigo do funcionario ")
      leia (codigo_funcionario)
      escreva("digite a idade do funcionario ")
