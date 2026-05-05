@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vetor[10],i
+		real maior=0,menor=0,soma=0,media
+		para(i=0;i<10;i++){
+			escreva("digite um valor: ")
+			leia(vetor[i])
+			se(i==0){
+				maior=vetor[0]
+				menor=vetor[0]
+			}
+			soma=soma+vetor[i]
+			se(vetor[i]>maior){
+				maior=vetor[i]
+			}senao se(vetor[i]<menor){
+			menor=vetor[i]
+			}
+			soma=soma+vetor[i]
+		}
+		media=soma/10
+		escreva("\no maior valor digitado foi: ",maior)
+		escreva("\no menor valor digitado foi: ",menor)
+		escreva("\na soma dos valores digitados foi: ",soma)
+		escreva("\na media dos valores digitaados foi: ",media)
+	}
+}
+
+
+
