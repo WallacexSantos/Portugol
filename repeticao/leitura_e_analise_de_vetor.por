@@ -12,7 +12,6 @@ programa
 				maior=vetor[0]
 				menor=vetor[0]
 			}
-			soma=soma+vetor[i]
 			se(vetor[i]>maior){
 				maior=vetor[i]
 			}senao se(vetor[i]<menor){
