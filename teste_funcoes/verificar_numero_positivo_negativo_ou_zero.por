@@ -1,9 +1,6 @@
 programa
 {
 	
-/*1. Crie uma função que receba um número real e verifique se ele é um número positivo,
-negativo ou zero. Crie a função verifiqueNumero e retorne o valor para a função inicio.
-Na função inicio, a partir do valor retornado, imprima o que aquele número é.*/
      funcao cadeia verifiqueNumero()   
      {
      	inteiro numero_digitado
@@ -25,7 +22,6 @@ Na função inicio, a partir do valor retornado, imprima o que aquele número é
      
 	funcao inicio()
 	{
-	     cadeia numero
 	     escreva(verifiqueNumero())
 	}
 }
