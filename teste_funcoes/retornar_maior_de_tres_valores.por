@@ -1,21 +1,19 @@
 programa
 {
 	
-//2. Crie uma função que receba três valores e retorne o maior valor.
 	funcao real valores()
 	{
 	 real valor=0,maior_valor=0
-	 inteiro i,valores_digitados=0
+	 inteiro i
 	 para(i=0;i<3;i++){
 	 	escreva("\nDigite um valor: ")
 	 	leia(valor)
-	 	se(valores_digitados==0){
+	 	se(i==0){
 	 		maior_valor = valor
 	 	}
 	 	se(valor > maior_valor){
 	 		maior_valor = valor
 	 	}
-	 	valores_digitados++
 	 }
 	 
 	 retorne maior_valor
