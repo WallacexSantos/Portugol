@@ -1,0 +1,23 @@
+programa
+{
+	funcao real soma(real a, real b)
+	{
+		real somatoria
+		somatoria = a + b
+		retorne somatoria
+	}
+
+	funcao inicio()
+	{
+		real x, y, resultado
+
+		escreva("Digite um valor: ")
+		leia(x)
+
+		escreva("\nDigite outro valor: ")
+		leia(y)
+
+		resultado = soma (x,y)
+		escreva("\nA soma dos valores e: ", resultado)
+	}
+}
