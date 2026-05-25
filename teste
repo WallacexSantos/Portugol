@@ -1,0 +1,33 @@
+/*. Crie uma função chamada filtrarMaiores(lista, limite) que receba:
+• um array de números
+• um número limite
+A função deve retornar um novo array contendo apenas os elementos do array original
+que sejam maiores que o limite. Números melhores devem ser substituídos por -1.
+No programa principal:
+1. Leia 6 números do usuário e armazene em um array
+2. Leia um valor para o limite
+3. Chame filtrarMaiores(lista, limite)
+4. Mostre o array filtrado ao usuário*/
+programa
+{
+	funcao digitar_numeros()
+	{
+		inteiro i
+		real numeros[10],acima_do_limite[10]
+		
+		para(i=0; i<10; i++){
+			
+		}
+		
+	}
+	
+	funcao filtrarMaiores()
+	{
+		
+	}
+	
+	funcao inicio()
+	{
+		digitar_numeros()	
+	}
+}
