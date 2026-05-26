@@ -13,19 +13,26 @@ programa
 	funcao digitar_numeros()
 	{
 		inteiro i
-		real numeros[10],acima_do_limite[10]
+		real numeros[6]
 		
-		para(i=0; i<10; i++){
-			
+		para(i=0; i<6; i++){
+			escreva("DIgite um numero, numeros acima de 10 serao separados: ")
+      leia(numeros[i])
+      filtrarMaiores(numeros[6])
 		}
 		
 	}
 	
-	funcao filtrarMaiores()
+	funcao filtrarMaiores(real numeros[])
 	{
-		
-	}
-	
+    inteiro i
+    real acima_do_limite[6]
+			para(i=0; i<6; i++){
+        se(numeros[i]<10){
+          acima_do_limite[i] = numeros[i]
+        }
+	  }
+  }	
 	funcao inicio()
 	{
 		digitar_numeros()	
