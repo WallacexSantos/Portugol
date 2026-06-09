@@ -21,6 +21,14 @@ programa
 
 	funcao inicio()
 	{
+		cadeia opcao
 		
+		escreva("\nQual media voce deseja ver? ")
+		escreva("\n[1] media simples")
+		escreva("\n[2] media ponderada")
+		leia(opcao)
+		enquanto(opcao !="1"e opcao !="2"){
+			escreva("")
+		}
 	}
 }
