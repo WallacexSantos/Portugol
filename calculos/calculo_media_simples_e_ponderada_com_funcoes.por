@@ -21,14 +21,31 @@ programa
 
 	funcao inicio()
 	{
-		cadeia opcao
+		cadeia escolha_opcao
+		inteiro opcao
 		
 		escreva("\nQual media voce deseja ver? ")
 		escreva("\n[1] media simples")
 		escreva("\n[2] media ponderada")
-		leia(opcao)
-		enquanto(opcao !="1"e opcao !="2"){
-			escreva("")
+		leia(escolha_opcao)
+		enquanto ( escolha_opcao !="1"e  escolha_opcao !="2"){
+			escreva("\nOpcao invalida, digite uma opcao valida ")
+			leia(escolha_opcao)		
+		}
+		se(escolha_opcao == "1"){
+			opcao = 1
+		}senao{
+			opcao = 2
+		}
+		escolha(opcao){
+
+			caso 1:
+
+			pare
+
+			caso 2
+
+			pare
 		}
 	}
 }
